@@ -10,6 +10,7 @@
 | Claude 앱 릴리스 노트 | docs.claude.com/en/release-notes/claude-apps | 높음 |
 | API 릴리스 노트 | docs.claude.com/en/release-notes/overview | 보통 |
 | Claude Code 새 버전 | github.com/anthropics/claude-code/releases ('Added' 줄이 있는 버전만) | 보통 |
+| Claude 요금제 | claude.com/pricing (요금제 카드 글자가 바뀌면) | 높음 |
 | 해커뉴스 화제 | 제목에 Claude·Anthropic, 150점 이상, 3일 안 | 보통 |
 
 ## 동작

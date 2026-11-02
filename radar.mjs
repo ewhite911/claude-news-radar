@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // 클로드 새 소식 감지 — 공식 소스를 읽어 처음 보는 소식이면 ntfy 로 휴대폰 푸시를 보낸다
 // 실행: node radar.mjs  (DRY=1 이면 보내지 않고 화면에만 출력)
+import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -68,6 +69,15 @@ const SOURCES = [
       const added = (r.body ?? '').split('\n').map(s => s.replace(/^[-*]\s*/, '').trim()).filter(s => /^(Added|New|Introduced)\b/.test(s));
       return { id: r.tag_name, title: r.tag_name, detail: added.map(s => '• ' + cut(s.replace(/`/g, ''), 140)).slice(0, 4).join('\n'), url: r.html_url, skip: !added.length };
     }) },
+  { key: 'pricing', label: 'Claude 요금제 변경', tags: 'moneybag', priority: 4,
+    read: async () => {
+      // 요금제 카드 부분(Free 부터 'Compare features' 전까지) 글자가 바뀌면 새 소식으로 본다
+      const t = text((await get('https://claude.com/pricing')).replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, ''));
+      const start = t.indexOf('Free Try Claude'), end = t.indexOf('Compare features', start);
+      if (start < 0 || end < 0) return [];
+      const block = t.slice(start, end);
+      return [{ id: createHash('sha1').update(block).digest('hex').slice(0, 12), title: '요금제 페이지 내용이 바뀌었어요', detail: block, url: 'https://claude.com/pricing' }];
+    } },
   { key: 'hackernews', label: '해커뉴스 화제', tags: 'fire', priority: 3,
     read: async () => {
       const since = Math.floor(Date.now() / 1000) - 3 * 86400;
@@ -112,7 +122,9 @@ async function main() {
     const seen = new Set(state.seen[src.key] ?? []);
     const news = items.filter(it => !seen.has(it.id));
     console.log(`✓ ${src.label}: ${items.length}개 중 새 소식 ${news.length}개`);
-    for (const it of news) if (!it.skip && !firstRun) fresh.push({ src, it });
+    // 처음 실행이거나 새로 더한 소스는 지금 있는 것을 기준으로만 삼는다
+    const newSource = !firstRun && !state.seen[src.key];
+    for (const it of news) if (!it.skip && !firstRun && !newSource) fresh.push({ src, it });
     state.seen[src.key] = [...items.map(it => it.id), ...(state.seen[src.key] ?? []).filter(id => !items.some(it => it.id === id))].slice(0, KEEP_IDS);
   }
 
