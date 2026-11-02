@@ -253,6 +253,9 @@
    "50320255",
    "50319358",
    "50307219"
+  ],
+  "pricing": [
+   "c0bfc6565a30"
   ]
  },
  "fails": {
@@ -261,6 +264,7 @@
   "apps-notes": 0,
   "api-notes": 0,
   "claude-code": 0,
-  "hackernews": 0
+  "hackernews": 0,
+  "pricing": 0
  }
 }
