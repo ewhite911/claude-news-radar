@@ -3,7 +3,7 @@ name: radar
 # 15분마다 클로드 공식 소스를 확인하고, 새 소식이 있으면 ntfy 로 푸시한다
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'   # 정각(:00)은 GitHub 예약이 몰려 자주 빠져서 7분 어긋나게
   workflow_dispatch:
 
 permissions:
