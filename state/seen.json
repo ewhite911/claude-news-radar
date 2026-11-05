@@ -2,6 +2,8 @@
  "seen": {
   "claude-blog": [
    "/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+   "/resources/articles/introducing-personal-finance-in-claude",
+   "/resources/articles/claude-enterprise-security-updates",
    "/resources/articles/new-agents-and-products-claude-marketplace",
    "/resources/articles/message-threads",
    "/resources/articles/smart-reports-surveys-pooled-budgets",
@@ -36,6 +38,7 @@
    "/news/life-sciences-verification-program"
   ],
   "apps-notes": [
+   "November 5, 2026",
    "October 21, 2026",
    "October 7, 2026",
    "September 28, 2026",
