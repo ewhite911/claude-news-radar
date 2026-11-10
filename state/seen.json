@@ -1,9 +1,13 @@
 {
  "seen": {
   "claude-blog": [
-   "/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+   "/resources/articles/sheets-whiteboards-data",
+   "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
+   "/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
    "/resources/articles/jpmorganchase-expands-claude-code",
    "/resources/articles/introducing-personal-finance-in-claude",
+   "/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
    "/resources/articles/claude-enterprise-security-updates",
    "/resources/articles/new-agents-and-products-claude-marketplace",
    "/resources/articles/message-threads",
@@ -302,10 +306,10 @@
   "hackernews": [
    "50429906",
    "50415628",
-   "50410107",
    "50429068",
-   "50407882",
+   "50410107",
    "50431144",
+   "50407882",
    "50394906",
    "50385272",
    "50344919",
@@ -317,6 +321,7 @@
    "50307219"
   ],
   "pricing": [
+   "423da3ac0cb0",
    "c0bfc6565a30"
   ]
  },
