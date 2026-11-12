@@ -1,10 +1,15 @@
 {
  "seen": {
   "claude-blog": [
-   "/resources/articles/sheets-whiteboards-data",
    "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/self-hosted-claude-managed-agents",
+   "/resources/articles/j-crew-style-advisor-with-claude",
+   "/resources/articles/claude-for-manufacturing",
+   "/resources/articles/claude-meetings",
+   "/resources/articles/claude-tag-guide-for-startups",
    "/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
    "/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+   "/resources/articles/sheets-whiteboards-data",
    "/resources/articles/jpmorganchase-expands-claude-code",
    "/resources/articles/introducing-personal-finance-in-claude",
    "/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
@@ -44,6 +49,7 @@
    "/news/life-sciences-verification-program"
   ],
   "apps-notes": [
+   "November 12, 2026",
    "November 6, 2026",
    "November 5, 2026",
    "October 21, 2026",
@@ -110,6 +116,7 @@
    "August 1, 2025"
   ],
   "api-notes": [
+   "November 12, 2026",
    "November 9, 2026",
    "November 5, 2026",
    "November 3, 2026",
@@ -304,11 +311,12 @@
    "v2.1.293"
   ],
   "hackernews": [
+   "50443716",
+   "50465829",
+   "50447074",
    "50429906",
    "50429068",
    "50431144",
-   "50443716",
-   "50447074",
    "50415628",
    "50410107",
    "50407882",
