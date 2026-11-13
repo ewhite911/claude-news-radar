@@ -6,6 +6,7 @@
    "/resources/articles/j-crew-style-advisor-with-claude",
    "/resources/articles/claude-for-manufacturing",
    "/resources/articles/claude-meetings",
+   "/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
    "/resources/articles/claude-tag-guide-for-startups",
    "/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
    "/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
@@ -284,6 +285,7 @@
    "May 10, 2024"
   ],
   "claude-code": [
+   "v2.1.323",
    "v2.1.322",
    "v2.1.321",
    "v2.1.319",
