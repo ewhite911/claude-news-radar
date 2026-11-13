@@ -2,12 +2,13 @@
  "seen": {
   "claude-blog": [
    "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/building-always-on-agents",
+   "/resources/articles/claude-tag-guide-for-startups",
    "/resources/articles/self-hosted-claude-managed-agents",
    "/resources/articles/j-crew-style-advisor-with-claude",
    "/resources/articles/claude-for-manufacturing",
    "/resources/articles/claude-meetings",
    "/resources/articles/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
-   "/resources/articles/claude-tag-guide-for-startups",
    "/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude",
    "/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
    "/resources/articles/sheets-whiteboards-data",
@@ -285,6 +286,7 @@
    "May 10, 2024"
   ],
   "claude-code": [
+   "v2.1.325",
    "v2.1.323",
    "v2.1.322",
    "v2.1.321",
@@ -314,10 +316,10 @@
   ],
   "hackernews": [
    "50481187",
-   "50443716",
    "50481220",
    "50465829",
    "50447074",
+   "50443716",
    "50429906",
    "50429068",
    "50431144",
