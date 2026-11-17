@@ -118,6 +118,7 @@
    "August 1, 2025"
   ],
   "api-notes": [
+   "November 16, 2026",
    "November 12, 2026",
    "November 9, 2026",
    "November 5, 2026",
@@ -286,6 +287,7 @@
    "May 10, 2024"
   ],
   "claude-code": [
+   "v2.1.326",
    "v2.1.325",
    "v2.1.323",
    "v2.1.322",
