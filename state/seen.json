@@ -2,6 +2,7 @@
  "seen": {
   "claude-blog": [
    "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/linked-billing-on-claude-platform",
    "/resources/articles/building-always-on-agents",
    "/resources/articles/claude-tag-guide-for-startups",
    "/resources/articles/self-hosted-claude-managed-agents",
@@ -118,6 +119,7 @@
    "August 1, 2025"
   ],
   "api-notes": [
+   "November 17, 2026",
    "November 16, 2026",
    "November 12, 2026",
    "November 9, 2026",
@@ -317,6 +319,7 @@
    "v2.1.293"
   ],
   "hackernews": [
+   "50529612",
    "50496921",
    "50481187",
    "50481220",
