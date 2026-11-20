@@ -32,6 +32,7 @@
   "anthropic-news": [
    "/news/public-benefit-fund",
    "/news/s1-sec",
+   "/news/ipo-close",
    "/news/anthropic-prices-initial-public-offering",
    "/news/roadshow-launch",
    "/news/ai-for-science-expands-foundations-research-institutions",
@@ -53,6 +54,7 @@
    "/news/life-sciences-verification-program"
   ],
   "apps-notes": [
+   "November 20, 2026",
    "November 17, 2026",
    "November 12, 2026",
    "November 6, 2026",
@@ -328,6 +330,7 @@
    "50541619",
    "50562754",
    "50553843",
+   "50574383",
    "50529612",
    "50496921",
    "50481187",
