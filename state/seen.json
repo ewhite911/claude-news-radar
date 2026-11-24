@@ -2,6 +2,10 @@
  "seen": {
   "claude-blog": [
    "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
+   "/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+   "/resources/articles/enterprise-guide-to-securing-coding-agents",
+   "/resources/articles/introducing-claude-ship",
    "/resources/articles/linked-billing-on-claude-platform",
    "/resources/articles/building-always-on-agents",
    "/resources/articles/claude-tag-guide-for-startups",
@@ -123,6 +127,7 @@
    "August 1, 2025"
   ],
   "api-notes": [
+   "November 23, 2026",
    "November 17, 2026",
    "November 16, 2026",
    "November 12, 2026",
@@ -293,6 +298,7 @@
    "May 10, 2024"
   ],
   "claude-code": [
+   "v2.1.331",
    "v2.1.330",
    "v2.1.329",
    "v2.1.328",
