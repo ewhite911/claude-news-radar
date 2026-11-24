@@ -2,6 +2,8 @@
  "seen": {
   "claude-blog": [
    "/resources/articles/interactive-connectors-full-tool",
+   "/resources/articles/install-as-app",
+   "/resources/articles/skills-over-mcp-tasks-and-more",
    "/resources/articles/kpmg-todd-lohr-on-ai-when-your-data-is-also-your-clients-data",
    "/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
    "/resources/articles/enterprise-guide-to-securing-coding-agents",
@@ -58,6 +60,7 @@
    "/news/life-sciences-verification-program"
   ],
   "apps-notes": [
+   "November 24, 2026",
    "November 20, 2026",
    "November 17, 2026",
    "November 12, 2026",
@@ -334,6 +337,9 @@
   ],
   "hackernews": [
    "50597612",
+   "50627836",
+   "50631210",
+   "50630809",
    "50574383",
    "50563148",
    "50562754",
